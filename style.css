@@ -1,0 +1,760 @@
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#f7f7f7;
+    color:#111;
+    line-height:1.5;
+    overflow-x:hidden;
+}
+
+img{
+    display:block;
+    max-width:100%;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+/* ===========================
+HEADER
+=========================== */
+
+.header{
+
+    position:fixed;
+    top:0;
+    left:0;
+
+    width:100%;
+    height:64px;
+
+    background:#fff;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding:10px 16px;
+
+    border-bottom:1px solid #ececec;
+
+    z-index:9999;
+
+}
+
+.logo-area{
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+}
+
+.logo{
+
+    width:40px;
+    height:40px;
+    object-fit:contain;
+
+}
+
+.logo-area h1{
+
+    font-size:15px;
+    font-weight:800;
+    letter-spacing:.3px;
+    text-transform:uppercase;
+
+}
+
+.logo-area p{
+
+    margin-top:2px;
+
+    color:#CC0000;
+
+    font-size:8px;
+
+    letter-spacing:2px;
+
+    font-weight:700;
+
+}
+
+.live{
+
+    display:flex;
+    align-items:center;
+    gap:6px;
+
+    color:#CC0000;
+
+    font-size:11px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+}
+
+.live span{
+
+    width:9px;
+    height:9px;
+
+    background:#CC0000;
+
+    border-radius:50%;
+
+}
+
+/* ===========================
+HERO
+=========================== */
+
+.hero{
+
+    padding:82px 18px 0;
+
+    text-align:center;
+
+}
+
+.hero h2{
+
+    margin-top:6px;
+
+    font-size:32px;
+
+    line-height:1.08;
+
+    font-weight:900;
+
+    letter-spacing:-1.5px;
+
+}
+
+.hero h2 span{
+
+    color:#CC0000;
+
+}
+
+.subtitle{
+
+    margin-top:14px;
+
+    color:#666;
+
+    font-size:16px;
+
+    line-height:1.55;
+
+    max-width:540px;
+
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.cta{
+
+    position:relative;
+
+    overflow:hidden;
+
+    display:block;
+
+    margin:24px auto 0;
+
+    width:100%;
+    max-width:430px;
+
+    background:#CC0000;
+
+    color:#fff;
+
+    padding:16px 20px;
+
+    border-radius:14px;
+
+    text-align:center;
+
+    font-size:16px;
+
+    font-weight:800;
+
+    transition:.25s ease;
+
+    box-shadow:0 8px 22px rgba(204,0,0,.18);
+
+}
+
+.cta:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 12px 28px rgba(204,0,0,.24);
+
+}
+
+.ssl{
+
+    margin-top:14px;
+
+    text-align:center;
+
+    color:#777;
+
+    font-size:14px;
+
+}
+
+/* ===========================
+STEPS
+=========================== */
+
+
+/* ===========================
+STEPS
+=========================== */
+
+.steps{
+
+    margin-top:42px;
+
+    background:#fafafa;
+
+    padding:42px 20px;
+
+    border-top:1px solid #f0f0f0;
+
+    border-bottom:1px solid #f0f0f0;
+
+}
+
+.small-title{
+
+    text-align:center;
+
+    color:#CC0000;
+
+    font-size:10px;
+
+    font-weight:700;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+}
+
+.steps h3{
+
+    margin-top:8px;
+
+    text-align:center;
+
+    font-size:30px;
+
+    line-height:1.15;
+
+    font-weight:900;
+
+    letter-spacing:-1px;
+
+}
+
+.timeline{
+
+    position:relative;
+
+    margin-top:32px;
+
+    padding-left:34px;
+
+}
+
+.timeline::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:8px;
+
+    top:6px;
+
+    bottom:6px;
+
+    width:2px;
+
+    background:#FFD6D6;
+
+}
+
+.step{
+
+    position:relative;
+
+    margin-bottom:28px;
+
+}
+
+.step:last-child{
+
+    margin-bottom:0;
+
+}
+
+.circle{
+
+    position:absolute;
+
+    left:-34px;
+
+    top:4px;
+
+    width:16px;
+
+    height:16px;
+
+    background:#CC0000;
+
+    border:4px solid #FFE5E5;
+
+    border-radius:50%;
+
+}
+
+.content span{
+
+    display:block;
+
+    color:#999;
+
+    font-size:10px;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+.content h4{
+
+    margin-top:5px;
+
+    font-size:20px;
+
+    font-weight:800;
+
+    line-height:1.25;
+
+}
+
+.content p{
+
+    margin-top:8px;
+
+    color:#666;
+
+    font-size:15px;
+
+    line-height:1.55;
+
+    max-width:520px;
+
+}
+
+
+/* ===========================
+REVIEWS
+=========================== */
+
+.reviews{
+
+    padding:55px 20px 70px;
+
+    background:#f7f7f7;
+
+}
+
+.reviews h3{
+
+    text-align:center;
+
+    font-size:30px;
+
+    font-weight:900;
+
+    line-height:1.15;
+
+    margin-bottom:24px;
+
+    letter-spacing:-1px;
+
+}
+
+.testimonial-slider{
+
+    display:flex;
+
+    gap:16px;
+
+    overflow-x:auto;
+
+    scroll-snap-type:x mandatory;
+
+    -webkit-overflow-scrolling:touch;
+
+    scrollbar-width:none;
+
+    padding-bottom:12px;
+
+}
+
+.testimonial-slider::-webkit-scrollbar{
+
+    display:none;
+
+}
+
+.review-card{
+
+    flex:0 0 88%;
+
+    scroll-snap-align:center;
+
+    background:#fff;
+
+    border-radius:16px;
+
+    padding:18px;
+
+    box-shadow:0 6px 20px rgba(0,0,0,.06);
+
+    transition:.25s ease;
+
+}
+
+.review-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.stars{
+
+    color:#ffb400;
+
+    font-size:18px;
+
+    letter-spacing:2px;
+
+    margin-bottom:12px;
+
+}
+
+.review-card p{
+
+    color:#555;
+
+    font-size:15px;
+
+    line-height:1.6;
+
+    margin-bottom:18px;
+
+}
+
+.person{
+
+    border-top:1px solid #eee;
+
+    padding-top:14px;
+
+}
+
+.person strong{
+
+    display:block;
+
+    font-size:15px;
+
+    font-weight:800;
+
+}
+
+.person span{
+
+    color:#888;
+
+    font-size:13px;
+
+}
+
+.bottom-btn{
+
+    margin-top:32px;
+
+}
+
+.reviews .ssl{
+
+    margin-top:18px;
+
+}
+
+/* ===========================
+RIPPLE EFFECT
+=========================== */
+
+.ripple{
+
+    position:absolute;
+
+    border-radius:50%;
+
+    transform:scale(0);
+
+    animation:ripple .6s linear;
+
+    background:rgba(255,255,255,.45);
+
+    pointer-events:none;
+
+}
+
+@keyframes ripple{
+
+    to{
+
+        transform:scale(4);
+
+        opacity:0;
+
+    }
+
+}
+
+/* ===========================
+SCROLL ANIMATIONS
+=========================== */
+
+.hidden{
+
+    opacity:0;
+
+    transform:translateY(30px);
+
+    transition:all .7s ease;
+
+}
+
+.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+.dragging{
+
+    cursor:grabbing;
+
+    user-select:none;
+
+}
+
+/* ===========================
+TABLET
+=========================== */
+
+@media (min-width:768px){
+
+.header{
+
+    padding:14px 26px;
+
+    height:74px;
+
+}
+
+.logo{
+
+    width:48px;
+
+    height:48px;
+
+}
+
+.logo-area h1{
+
+    font-size:18px;
+
+}
+
+.logo-area p{
+
+    font-size:10px;
+
+}
+
+.live{
+
+    font-size:13px;
+
+}
+
+.hero{
+
+    max-width:760px;
+
+    margin:auto;
+
+    padding-top:110px;
+
+}
+
+.hero h2{
+
+    font-size:50px;
+
+}
+
+.subtitle{
+
+    font-size:20px;
+
+}
+
+.cta{
+
+    font-size:19px;
+
+    padding:20px;
+
+    max-width:470px;
+
+}
+
+.ssl{
+
+    font-size:16px;
+
+}
+
+.steps{
+
+    max-width:760px;
+
+    margin:70px auto 0;
+
+    padding:60px 40px;
+
+}
+
+.steps h3{
+
+    font-size:46px;
+
+}
+
+.content h4{
+
+    font-size:28px;
+
+}
+
+.content p{
+
+    font-size:19px;
+
+}
+
+.reviews{
+
+    max-width:760px;
+
+    margin:auto;
+
+    padding:70px 30px 90px;
+
+}
+
+.reviews h3{
+
+    font-size:42px;
+
+}
+
+.review-card{
+
+    flex:0 0 68%;
+
+    padding:24px;
+
+}
+
+.review-card p{
+
+    font-size:17px;
+
+}
+
+}
+
+/* ===========================
+DESKTOP
+=========================== */
+
+@media (min-width:1100px){
+
+.hero,
+.steps,
+.reviews{
+
+    max-width:840px;
+
+    margin:auto;
+
+}
+
+.hero h2{
+
+    font-size:60px;
+
+}
+
+.subtitle{
+
+    font-size:22px;
+
+}
+
+.review-card{
+
+    flex:0 0 48%;
+
+}
+
+}

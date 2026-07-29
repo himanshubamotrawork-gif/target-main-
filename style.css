@@ -66,8 +66,8 @@ HEADER
 
 .logo{
 
-    width:46px;
-    height:46px;
+    width:52px;
+    height:52px;
     object-fit:contain;
 
 }
@@ -128,7 +128,7 @@ HERO
 
 .hero{
 
-    padding-top:108px;
+    padding-top:95px;
 
     padding-left:24px;
     padding-right:24px;
@@ -137,26 +137,10 @@ HERO
 
 }
 
-.card{
-
-    border-radius:28px;
-
-    overflow:hidden;
-
-    box-shadow:0 12px 35px rgba(0,0,0,.10);
-
-}
-
-.card img{
-
-    width:100%;
-    display:block;
-
-}
 
 .hero h2{
 
-    margin-top:36px;
+    margin-top:12px;
 
     font-size:52px;
 
@@ -588,7 +572,7 @@ body{
 
 .hero{
 
-    padding-top:130px;
+    padding-top:95px;
 
 }
 
